@@ -1,0 +1,15 @@
+# Ignore all dependencies and build artifacts
+node_modules/
+dist/
+build/
+coverage/
+.env
+*.log
+
+# Ignore specific folders
+.aws-sam/
+.vscode/
+
+# Optional: ignore test files or mock data (if you don't want to lint them)
+# __tests__/
+# mock-data/

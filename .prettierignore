@@ -1,0 +1,23 @@
+# Same as ESLint
+node_modules/
+dist/
+build/
+coverage/
+.env
+*.log
+
+# VSCode config shouldn't be auto-formatted
+.vscode/
+
+# Ignore compiled code or output
+*.min.js
+*.bundle.js
+
+# Ignore lock files (Prettier can technically format JSON too)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional: skip test snapshots or mock JSON
+# __snapshots__/
+# mock-data/
