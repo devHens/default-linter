@@ -16,7 +16,7 @@ function getValue() {
 }
 
 // ❌ invalid `this` usage
-function printThis() {
+function printThis(a) {
   console.log(this);
 }
 printThis();
